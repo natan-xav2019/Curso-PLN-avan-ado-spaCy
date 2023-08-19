@@ -1,22 +1,27 @@
 ## Criando um ambinte de desenvolvimento Python
 
-- Verifique se o mesmo esta instalado no seu computador rode no terminal ```python -version```.
-Se retornar a versão e por que esta estalado e continue dando proseguimento caso contrario vai na pagina oficial do Python e estale o mesmo.
-- Execute o seguinte comando para criar as libs basicas do python ```python -m venv env```.
-- Execute o arquivo activate dependendo terminal se for powershell ```.ps1``` e se for CMD ```.bat```.
+- Para verificar se o python está instalado no seu computador, rode no terminal o comando ```python -version```.
+Se retornar a versão, é porque está instalado. Continue dando proseguimento, caso contrário, vai na página oficial do Python e instale.
+- Execute o seguinte comando para criar as libs básicas do python: ```python -m venv env```.
+- Execute o arquivo "activate". Dependendo do terminal:
+
+>powershell ```.ps1```  
+>CMD ```.bat```.
 
 ```.\env\Scripts\Activate.ps1 ou .\env\Scripts\Activate.ps1```
- caso de algum erro rode o seguinte comando em outro terminal ```set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned``` em sequencia dando ``` [S] sim``` caso peça reinicie o terminal novamente e rode o arquivo ```activate```.
+ Caso dê algum erro, rode o seguinte comando em outro terminal: ```set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned```, em sequência confirme ``` [S] sim``` Caso peça, reinicie o terminal novamente e rode o arquivo ```activate```.
 
 ## Compilando Python
 
-Apos todas as cofigurações anteriores selecione a interpretador python que tenha o arquivo env algo como ```.\env\Scripts\python.exe```
+Após todas as configurações anteriores, selecione o interpretador python que tenha o arquivo "env". 
+Ex. ```.\env\Scripts\python.exe```
 
-## Como estalar um pacote Python
+## Como instalar um pacote Python
 
-Simplesmente rode o comando ```pip install [nome da biblioteca]``` no nosso caso desse curso vamos precisar do pacote spacy rondando assim o  comando ```pip install spacy```
+Rode o comando ```pip install [nome da biblioteca]``` no caso desse curso, vamos precisar do pacote "spacy". 
+Para instalar use o  comando ```pip install spacy```
 
 ## Comandos do ambiente virtual
 - Ativar: Caminho para o activate ```.\env\Scripts\Activate.ps1```
-- Desativando: escrevendo no terminal da local da pasta  ```deactivate```
+- Desativar: escreva no terminal do local da pasta  ```deactivate```
  
